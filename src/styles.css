@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.phones {
+  border: 2px solid red;
+  width: 230px;
+  padding: 10px;
+  margin: 10px;
+}
+
+@media screen and (min-width: 350px) {
+  .phone-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .phone-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
